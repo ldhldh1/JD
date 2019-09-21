@@ -75,18 +75,18 @@ body {
     *zoom: 1
 }
 
-@font-face {
+/* @font-face {
     font-family: 'iconfont';
-    /* project id 1428351 */
+    project id 1428351
     src: url('http://at.alicdn.com/t/font_1428351_9c4g7hnw5f.eot');
     src: url('http://at.alicdn.com/t/font_1428351_9c4g7hnw5f.eot?#iefix') format('embedded-opentype'),
         url('http://at.alicdn.com/t/font_1428351_9c4g7hnw5f.woff2') format('woff2'),
         url('http://at.alicdn.com/t/font_1428351_9c4g7hnw5f.woff') format('woff'),
         url('http://at.alicdn.com/t/font_1428351_9c4g7hnw5f.ttf') format('truetype'),
         url('http://at.alicdn.com/t/font_1428351_9c4g7hnw5f.svg#iconfont') format('svg');
-}
+} */
 
-.iconfont {
+.icon-xiala1 {
     font-family: "iconfont" !important;
     font-size: 16px;
     font-style: normal;
@@ -95,7 +95,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-.iconfont-location {
+.icon-location {
     font-family: "iconfont" !important;
     font-size: 18px;
     font-style: normal;
@@ -105,7 +105,7 @@ body {
     color: #f10215;
 }
 
-.iconfont-search {
+.icon-search {
     font-family: "iconfont" !important;
     font-size: 22px;
     font-style: normal;
@@ -117,7 +117,7 @@ body {
     left: 19px;
 }
 
-.iconfont-camera {
+.icon-camera {
     font-family: "iconfont" !important;
     font-size: 18px;
     font-style: normal;
@@ -128,7 +128,7 @@ body {
     right: 75px;
 }
 
-.iconfont-cart {
+.icon-gouwuche {
     font-family: "iconfont" !important;
     font-size: 16px;
     font-style: normal;
