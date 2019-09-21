@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+html,
+body,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+legend,
+img {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 5000px;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+s,
+i,
+em {
+    font-style: normal;
+    text-decoration: none;
+}
+
+input {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: "SimSun", "宋体";
+}
+
+/*禁止文本输入框在右下角拖拽（因为拖动后会调整输入框大小）*/
+textarea {
+    resize: none;
+}
+
+/* 去掉图片底侧默认的3像素空白缝隙*/
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+body {
+    font: 12px/150% Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, "\5B8B\4F53", sans-serif;
+    color: #666;
+    background: #fff;
+}
+
+/* 清除浮动 */
+.clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0
+}
+
+.clearfix {
+    *zoom: 1
+}
+
+@font-face {
+    font-family: 'iconfont';
+    /* project id 1428351 */
+    src: url('http://at.alicdn.com/t/font_1428351_9c4g7hnw5f.eot');
+    src: url('http://at.alicdn.com/t/font_1428351_9c4g7hnw5f.eot?#iefix') format('embedded-opentype'),
+        url('http://at.alicdn.com/t/font_1428351_9c4g7hnw5f.woff2') format('woff2'),
+        url('http://at.alicdn.com/t/font_1428351_9c4g7hnw5f.woff') format('woff'),
+        url('http://at.alicdn.com/t/font_1428351_9c4g7hnw5f.ttf') format('truetype'),
+        url('http://at.alicdn.com/t/font_1428351_9c4g7hnw5f.svg#iconfont') format('svg');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.iconfont-location {
+    font-family: "iconfont" !important;
+    font-size: 18px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    color: #f10215;
+}
+
+.iconfont-search {
+    font-family: "iconfont" !important;
+    font-size: 22px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    color: white;
+    position: absolute;
+    left: 19px;
+}
+
+.iconfont-camera {
+    font-family: "iconfont" !important;
+    font-size: 18px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    position: absolute;
+    right: 75px;
+}
+
+.iconfont-cart {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.8px;
+    -moz-osx-font-smoothing: grayscale;
+    color: #e1251b;
+    margin-right: 13px;
+}
+
+.fl {
+    float: left
+}
+
+.fr {
+    float: right
+}
+
+a {
+    color: #999;
+    text-decoration: none;
+}
