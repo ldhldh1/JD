@@ -17,6 +17,15 @@
     padding: 0 7px;
     position: relative;
 }
+
+.shortcut a:hover {
+    color: #e33333;
+}
+
+.shortcut .fr div:hover {
+    cursor: pointer;
+}
+
 .shortcut .style-red {
     color: #f10215;
 }
@@ -65,7 +74,7 @@
     margin: 0 auto;
 }
 
-.header .logo {
+.header .logo a {
     background-image: url(https://misc.360buyimg.com/mtd/pc/index_2019/1.0.0/assets/sprite/header/sprite.png);
     position: absolute;
     top: 10px;
@@ -95,6 +104,14 @@
     float: left;
 }
 
+.header .hotwords a:hover {
+    color: #c81623;
+}
+
+.header .style-red {
+    color: #e1251b;
+}
+
 .header .navitems {
     position: absolute;
     left: 203px;
@@ -103,11 +120,15 @@
     padding-top: 20px;
 }
 
+.header .navitems a:hover {
+    color: #c81623;
+}
+
 .header .navitems .items {
     margin-left: 1px;
     float: left;
 }
-.header .navitems .items a {
+.header .navitems a {
     height: 40px;
     line-height: 40px;
     font-size: 15px;
@@ -115,6 +136,11 @@
     float: left;
     position: relative;
     color: #333;
+}
+
+.header .navitems .style-red {
+    color: #e1251b;
+    font-weight: 700;
 }
 
 .header .form {
